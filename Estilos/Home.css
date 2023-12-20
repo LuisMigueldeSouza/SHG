@@ -17,6 +17,16 @@ body, html {
     color: #FFFCEF;
 }
 
+header {
+    background-color: rgb(202, 16, 16);
+    padding: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+header > h1 {
+    text-align: center;
+}
+
 main {
     position: relative;
     height: 100vh;
@@ -26,7 +36,7 @@ main {
 section#quadro1 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(50%, -50%);
     overflow: hidden; /*Tudo que estiver fora da borda vai ficar escondido*/
 
@@ -40,9 +50,11 @@ section#quadro1 {
 section#quadro1 > div#imagem1 {
     display: block;
     background: rgb(34, 34, 34) url(../imagens/Blox_Fruitslogo.png) no-repeat;
-    background-size: cover;
+    background-size: 260px; /*Isso fez a imagem ficar dentro da caixa exibindo o tamanho que eu queria*/
     height: 200px;
+    width: 260px;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
 section#quadro1 > div#conteudo1 {
@@ -53,7 +65,7 @@ section#quadro1 > div#conteudo1 {
 section#quadro2 {
     position: absolute;
     top: 80%;
-    right: 50%;
+    right: 62%;
     transform: translate(-50%, 50%);
     overflow: hidden;
 
@@ -80,7 +92,7 @@ section#quadro2 > div#conteudo2 {
 section#quadro3 {
     position: absolute;
     top: 150%;
-    right: 32%;
+    right: 21%;
     transform: translate(50%, 100%);
     overflow: hidden;
 
@@ -93,7 +105,7 @@ section#quadro3 {
 
 section#quadro3 > div#imagem3 {
     display: block;
-    background: #7386ff url(../imagens/Imagem3LuffyP.png) no-repeat;
+    background: #7386ff url(../imagens/LuffyImagem3f.jpg) no-repeat;
     background-size: cover;
     height: 200px;
     background-position: top top;
