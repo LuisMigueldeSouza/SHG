@@ -92,7 +92,7 @@ section#quadro3 {
 
 section#quadro3 > div#imagem3 {
     display: block;
-    background: ;
+    background: #3f59ff url(../) no-repeat;
     background-size: cover;
     height: 200px;
     background-position: ;
