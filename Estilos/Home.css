@@ -2,6 +2,7 @@
 
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /*Fontes padrões do site*/
+    text-align: justify;
 
     padding: 0px;
     margin: 0px;
@@ -38,7 +39,7 @@ section#quadro1 {
 
 section#quadro1 > div#imagem1 {
     display: block;
-    background: rgb(172, 6, 6) url(../imagens/Blox_Fruitslogo.png) no-repeat;
+    background: rgb(34, 34, 34) url(../imagens/Blox_Fruitslogo.png) no-repeat;
     background-size: cover;
     height: 200px;
     background-position: center center;
@@ -78,9 +79,9 @@ section#quadro2 > div#conteudo2 {
 
 section#quadro3 {
     position: absolute;
-    top: ;
-    right: ;
-    transform: translate();
+    top: 150%;
+    right: 32%;
+    transform: translate(50%, 100%);
     overflow: hidden;
 
     background-color: rgb(51, 51, 51);
@@ -92,10 +93,10 @@ section#quadro3 {
 
 section#quadro3 > div#imagem3 {
     display: block;
-    background: #3f59ff url(../) no-repeat;
+    background: #7386ff url(../imagens/Imagem3LuffyP.png) no-repeat;
     background-size: cover;
     height: 200px;
-    background-position: ;
+    background-position: top top;
 }
 
 section#quadro3 > div#conteudo3 {
