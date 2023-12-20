@@ -10,8 +10,10 @@
 
 body, html {
     background-color: #1C1C1C;
+    background-image: linear-gradient(to top #1C1C1C, #0e0d0d);
     height: 100vh;
     width: 100vw;
+    color: #FFFCEF;
 }
 
 main {
@@ -27,9 +29,9 @@ section#quadro1 {
     transform: translate(50%, -50%);
     overflow: hidden; /*Tudo que estiver fora da borda vai ficar escondido*/
 
-    background-color: white;
+    background-color: rgb(51, 51, 51);
     width: 250px;
-    height: 500px;
+    height: 410px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 }
@@ -54,22 +56,49 @@ section#quadro2 {
     transform: translate(-50%, 50%);
     overflow: hidden;
 
-    background-color: white;
+    background-color: rgb(51, 51, 51);
     width: 250px;
-    height: 500px;
+    height: 410px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 }
 
 section#quadro2 > div#imagem2 {
     display: block;
-    background: #8300ff;
-    background-size: ;
+    background: #1F1E23 url(../imagens/LogoSHG.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: center center;
+}
+
+section#quadro2 > div#conteudo2 {
+    display: block;
+    padding: 10px;
+}
+
+section#quadro3 {
+    position: absolute;
+    top: ;
+    right: ;
+    transform: translate();
+    overflow: hidden;
+
+    background-color: rgb(51, 51, 51);
+    width: 250px;
+    height: 410px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+section#quadro3 > div#imagem3 {
+    display: block;
+    background: ;
+    background-size: cover;
     height: 200px;
     background-position: ;
 }
 
-section#quadro2 > div#conteudo2 {
+section#quadro3 > div#conteudo3 {
     display: block;
     padding: 10px;
 }
