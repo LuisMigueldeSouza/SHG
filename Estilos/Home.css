@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+main > div#caixa1 {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+}
