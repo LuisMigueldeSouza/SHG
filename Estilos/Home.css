@@ -27,8 +27,16 @@ header > h1 {
     text-align: center;
 }
 
-body > nav > a {
+nav {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
     color: white;
+    text-decoration: none;
+    padding: 20px;
 }
 
 main {
