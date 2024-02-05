@@ -27,6 +27,10 @@ header > h1 {
     text-align: center;
 }
 
+body > nav > a {
+    color: white;
+}
+
 main {
     position: relative;
     height: 100vh;
