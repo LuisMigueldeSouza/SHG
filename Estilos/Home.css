@@ -167,6 +167,25 @@ section#quadro2 > div#conteudo2 {
     padding: 10px;
 }
 
+section#bloco2 > div#cont2 > h2 {
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+section#bloco2 > div#cont2 > p {
+    text-align: justify;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+div.contimg2 > img {
+    position: absolute;
+    top: 38%;
+    left: 25%;
+}
+
 section#quadro3 {
     position: absolute;
     top: 150%;
@@ -192,4 +211,23 @@ section#quadro3 > div#imagem3 {
 section#quadro3 > div#conteudo3 {
     display: block;
     padding: 10px;
+}
+
+section#bloco3 > div#cont3 > h2 {
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+section#bloco3 > div#cont3 > p {
+    text-align: justify;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+div.contimg3 > img {
+    position: absolute;
+    top: 38%;
+    left: 25%;
 }
