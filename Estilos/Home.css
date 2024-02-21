@@ -231,3 +231,35 @@ div.contimg3 > img {
     top: 38%;
     left: 25%;
 }
+
+.container {
+    position: absolute;
+    top: 320%;
+    right: 37%;
+
+    width: 387px;
+    margin: 0 auto;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.conteudo-tabela {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.conteudo-tabela th, .conteudo-tabela td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.imgNome {
+    display: block;
+    margin: auto;
+
+    max-width: 50px;
+    max-height: 50px;
+}
