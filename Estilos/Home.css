@@ -17,6 +17,11 @@ body, html {
     color: #FFFCEF;
 }
 
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 header {
     background-color: rgb(202, 16, 16);
     padding: 12px;
@@ -69,7 +74,7 @@ section#quadro1 {
 
 section#bloco1 {
     position: absolute;
-    top: 18%;
+    top: 16.5%;
     left: 12%;
     overflow: hidden;
 
@@ -82,7 +87,7 @@ section#bloco1 {
 
 section#bloco2 {
     position: absolute;
-    top: 112%;
+    top: 114.5%;
     left: 50%;
     overflow: hidden;
 
@@ -95,7 +100,7 @@ section#bloco2 {
 
 section#bloco3 {
     position: absolute;
-    top: 214%;
+    top: 219.3%;
     left: 10%;
     overflow: hidden;
 
@@ -248,8 +253,9 @@ div.contimg3 > img {
     margin: 0 auto;
 }
 
-.box h2 {
+.conteudo-tabela h2 {
     text-align: center;
+    background-color: rgb(135, 0, 161);
 }
 
 .conteudo-tabela {
@@ -300,6 +306,9 @@ p#msg1 {
     position: absolute;
     top: 70%;
     left: 63%;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
 }
 
 div#footerbox1 > a > img#socimg1 {
@@ -344,6 +353,13 @@ div#footerbox2 > p#txtf2 {
 }
 
 div#footerbox2 > p#Ass {
+    padding-top: 77px;
     text-align: center;
-    padding-top: 18px;
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer > div#footerbox1 > a > img:hover {
+    border: 2px solid #FFFCEF;
+    border-radius: 50%;
 }
