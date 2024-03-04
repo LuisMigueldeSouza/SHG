@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 768px) {
+    
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /*Fontes padrões do site*/
+        text-align: justify;
+    
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box; 
+    }
+    
+    body, html {
+        background-color: #1C1C1C;
+        background-image: linear-gradient(to top #1C1C1C, #0e0d0d);
+        height: 100vh;
+        width: 100vw;
+        color: #FFFCEF;
+    }
+    
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+    header {
+        background-color: rgb(202, 16, 16);
+        padding: 8px; /* Ajuste para telas menores */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+        width: 100vw;
+    }
+    
+    header > h1 {
+        text-align: center;
+        font-size: 1.5em; /* Ajuste para telas menores */
+    }
+    
+    nav {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 10px; /* Ajuste para telas menores */
+    }
+    
+    nav > a:hover {
+        background-color: white;
+        color: black;
+        border-radius: 3.5px;
+        transition-duration: 1s;
+    }
+    
+    main {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    section {
+        margin: 10px; /* Ajuste para telas menores */
+    }
+    
+    /* Aqui você pode adicionar mais ajustes para os elementos da seção */
+    
+    .container {
+        position: absolute;
+        top: 320%;
+        right: 37%;
+        width: 100%; /* Ajuste para telas menores */
+        margin: 0 auto;
+    }
+    
+    .conteudo-tabela h2 {
+        text-align: center;
+        background-color: rgb(135, 0, 161);
+    }
+    
+    .conteudo-tabela {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    .conteudo-tabela th, .conteudo-tabela td {
+        border: 1px solid #ccc;
+        padding: 8px; /* Ajuste para telas menores */
+    }
+    
+    .imgNome {
+        display: block;
+        margin: auto;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    
+    footer {
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    footer > div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    footer a > img {
+        width: 40px; /* Ajuste para telas menores */
+        height: 40px; /* Ajuste para telas menores */
+        margin: 0 5px;
+    }
+    
+    footer h2,
+    footer p {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #FFFCEF;
+    }
+
+}
