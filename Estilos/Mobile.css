@@ -28,7 +28,7 @@
         background-color: rgb(202, 16, 16);
         padding: 8px; /* Ajuste para telas menores */
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-        width: 100%;
+        max-width: 100%;
     }
     
     header > h1 {
